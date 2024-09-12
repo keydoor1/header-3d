@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Navbar Animation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container-2">
+    <div class="navbar">
+      <div class="menu">
+        <h3 class="logo">Brand<span>Name</span></h3>
+        <div class="hamburger-menu" onclick="clicker()">
+          <div class="bar">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="links" style="position: fixed">
+      <ul id="links">
+        <li>
+          <a href="#index" style="--i: 0.05s;" onclick="scrool_clicker()" id="home">Home</a>
+        </li>
+        <li>
+          <a href="#con" style="--i: 0.1s;" onclick="scrool_clicker()" id="Services">Services</a>
+        </li>
+        <li>
+          <a href="#con2" style="--i: 0.15s;" onclick="scrool_clicker()" id="Portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#con3" style="--i: 0.2s;" onclick="scrool_clicker()">Testimonials</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container" id="index">
+
+    <div class="main-container">
+      <div class="main">
+        <header>
+          <div class="overlay">
+            <div class="inner">
+
+              <h2 class="title">Future is here index</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium illum tenetur consequatur veritatis?
+              </p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </header>
+
+      </div>
+      <div class="shadow one">
+      </div>
+
+
+      <div class="shadow two"></div>
+    </div>
+
+  </div>
+  <div class="container" id="con">
+
+    <div class="main-container">
+      <div class="main">
+        <header>
+          <div class="overlay">
+            <div class="inner">
+
+              <h2 class="title">Future is here con</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium illum tenetur consequatur veritatis?
+              </p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </header>
+
+      </div>
+      <div class="shadow one">
+      </div>
+
+
+      <div class="shadow two"></div>
+    </div>
+
+  </div>
+  <div class="container" id="con2">
+
+    <div class="main-container">
+      <div class="main">
+        <header>
+          <div class="overlay">
+            <div class="inner">
+
+              <h2 class="title">Future is here</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium illum tenetur consequatur veritatis?
+              </p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </header>
+
+      </div>
+      <div class="shadow one">
+      </div>
+
+
+      <div class="shadow two"></div>
+    </div>
+
+  </div>
+  <div class="container" id="con3">
+
+    <div class="main-container">
+      <div class="main">
+        <header>
+          <div class="overlay">
+            <div class="inner">
+
+              <h2 class="title">Future is here</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium illum tenetur consequatur veritatis?
+              </p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </header>
+
+      </div>
+      <div class="shadow one">
+      </div>
+
+
+      <div class="shadow two"></div>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
